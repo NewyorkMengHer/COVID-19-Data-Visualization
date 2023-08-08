@@ -7,6 +7,7 @@ The "COVID-19 Data Analysis & Visualization" project is a comprehensive Spark ap
 The primary goal of this project is to offer a tool that facilitates a deeper understanding of COVID-19 data. By identifying trends and patterns, we aim to provide a clearer picture of the pandemic's progression and its multifaceted impacts. Our team has crafted 10 analytical queries to delve into various aspects of the data, aiming to uncover meaningful insights.
 
 ## Features
+- **Agile Scrum**: Implemented the Agile Scrum methodology for project work. We had a Scrum Master who served as the team lead, conducted daily scrum meetings, and reported any blockers or tasks completed at the end of each day.
 - **Interactive CLI**: A user-friendly interface to query and analyze COVID-19 data.
 - **User/Admin System**: A robust user and admin system integrated within the Scala console, ensuring data security and facilitating CRUD operations. Passwords are securely encrypted using bCrypt.
 - **Visualization**: Leveraging tools like Zeppelin (or Tableau), the project visualizes the analyzed data, making it easier to interpret and understand.
