@@ -1,34 +1,45 @@
-# Project 2
-Requirements:
-- Create a Spark Application that processes COVID data
-- Your project 2 pitch should involve some analysis of COVID data. This is the central feature. 
-- Send me a link to a git repo, have someone in the group manage git (but they can ask for help from me)
-- Produce one or more .jar files for your analysis. Then you can run application using spark-submit (in Ubuntu).
-- 10 queries per group
-- find a trend
-- implement logging (with Spark)
-- use Zeppelin (graphics and visuals) for showing trends and data analysis
-- Implement Agile Scrum methodology for project work (choose Scrum Master who will serve as team lead, all communication with me funneled through this associate, and have daily scrum meetings, by end of day report blockers)
+# COVID-19 Data Analysis & Visualization
 
-### Presentations
-- Bring a simple slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
-- I may ask you to run an analysis on the day of the presentation, so be prepared to do so.
-- We'll have 20 minutes per group, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
-- Include a link to your github repository at the end of your slides
+## Introduction
+The "COVID-19 Data Analysis & Visualization" project is a comprehensive Spark application designed to provide deep insights into the vast datasets related to the COVID-19 pandemic. With an interactive Command Line Interface (CLI), users can seamlessly query and analyze the data, uncovering trends, patterns, and correlations that shed light on the global impact of the virus.
+
+## Objective
+The primary goal of this project is to offer a tool that facilitates a deeper understanding of COVID-19 data. By identifying trends and patterns, we aim to provide a clearer picture of the pandemic's progression and its multifaceted impacts. Our team has crafted 10 analytical queries to delve into various aspects of the data, aiming to uncover meaningful insights.
+
+## Features
+- **Interactive CLI**: A user-friendly interface to query and analyze COVID-19 data.
+- **User/Admin System**: A robust user and admin system integrated within the Scala console, ensuring data security and facilitating CRUD operations. Passwords are securely encrypted using bCrypt.
+- **Visualization**: Leveraging tools like Zeppelin (or Tableau), the project visualizes the analyzed data, making it easier to interpret and understand.
+- **Analytical Queries**: Our team developed 10 specific analytical queries to dive deep into the data. These queries can be found [here](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/tree/main/src/main/scala/query). Some of the queries include:
+  ## Analytical Queries
+Our team developed 10 specific analytical queries to dive deep into the data. These queries aim to uncover meaningful insights into various aspects of the COVID-19 pandemic. You can explore each query in detail using the links below:
+
+  - [Death Spread Speed](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q10_DeathSpreadSpeed.scala)
+  - [Percentage Of Population Confirmed](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q1_PercentageOfPopConfirmed.scala)
+  - [Average Confirmed, Death, and Recovery Rates](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q2_AvgConfrimedDeathRecov.scala)
+  - [Peak of Deaths](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q3_PeakOfDeaths.scala)
+  - [Highest Death By Country](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q4_HighestDeathByCountry.scala)
+  - [General Disease Evolution](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q5_GeneralDiseaseEvolution.scala)
+  - [Average Recovery Rate](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q6_AvgRecoveredRate.scala)
+  - [Confirmed Cases By Day](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q7_ConfirmedByDay.scala)
+  - [Total Confirmed, Deaths, and Recoveries](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q8_Total_CDR.scala)
+  - [Confirmed Spread Speed](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q9_ConSpreadSpeed.scala)
+
+Each query provides a unique perspective on the data, offering insights that can aid in understanding the pandemic's progression and impact.
 
 
-### Technologies
+## Challenges
+- **Data Cleaning**: One of the significant challenges faced was cleaning the extensive dataset, which comprised over 200,000 rows. Ensuring accuracy and relevance was paramount to the project's success.
 
+## Technologies Used
 - Apache Spark
 - Spark SQL
 - YARN
-- HDFS and/or S3
-- SBT
+- HDFS 
 - Scala 2.12.10
 - Git + GitHub
-- Zeppelin (or Tableau or other visualization software)
+- Zeppelin (or Tableau)
 
+## Conclusion
+This project serves as a testament to the power of data analysis and visualization in understanding complex scenarios like a global pandemic. Whether you're a researcher, data analyst, or someone keen on understanding the nuances of COVID-19, this tool provides a comprehensive platform for exploration and discovery.
 
-### Due Date
-- Presentations will take place on Wednesday, 4/13
-- Send Project proposal with MVP clearly labeled with 2-3 stretch goals by end of day, 4/4
