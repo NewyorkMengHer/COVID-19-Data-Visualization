@@ -43,3 +43,15 @@ Each query provides a unique perspective on the data, offering insights that can
 ## Conclusion
 This project serves as a testament to the power of data analysis and visualization in understanding complex scenarios like a global pandemic. Whether you're a researcher, data analyst, or someone keen on understanding the nuances of COVID-19, this tool provides a comprehensive platform for exploration and discovery.
 
+## Contributors
+This project was made possible thanks to the dedicated efforts of the following contributors:
+
+- [Jaceguai De Magalhaes](https://github.com/jaceguaidemagalhaes) - Scrum Master / Data Visualization with Zepplin
+- [Newyork Her](https://github.com/NewyorkMengHer) - Analytical Queries
+- [Brandon Cho](https://github.com/BrandonYCho) - Data Cleaning / Encryption
+- [Jack Nguyen](https://github.com/Jackeywawa) - User/Admin System
+- [Aaron Schomer](https://github.com/AarSchoSkIg) - Data Visualization with Tableau
+
+We appreciate the hard work and collaboration of each team member in bringing this project to life.
+
+
