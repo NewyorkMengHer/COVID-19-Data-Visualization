@@ -11,7 +11,7 @@ The primary goal of this project is to offer a tool that facilitates a deeper un
 - **User/Admin System**: A robust user and admin system integrated within the Scala console, ensuring data security and facilitating CRUD operations. Passwords are securely encrypted using bCrypt.
 - **Visualization**: Leveraging tools like Zeppelin (or Tableau), the project visualizes the analyzed data, making it easier to interpret and understand.
 - **Analytical Queries**: Our team developed 10 specific analytical queries to dive deep into the data. These queries can be found [here](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/tree/main/src/main/scala/query). Some of the queries include:
-  ## Analytical Queries
+## Analytical Queries
 Our team developed 10 specific analytical queries to dive deep into the data. These queries aim to uncover meaningful insights into various aspects of the COVID-19 pandemic. You can explore each query in detail using the links below:
 
   - [Death Spread Speed](https://github.com/NewyorkMengHer/COVID-19-Data-Visualization/blob/main/src/main/scala/query/Q10_DeathSpreadSpeed.scala)
